@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>homework-16</title>
+  <link rel="stylesheet" href="./style/normalize.css">
+  <link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+  <header class="site-header header">
+    <div class="big-container">
+      <div class="header-wrapper">
+        
+        <div class="logo">
+          
+          <a class="logo__link" href="#">
+            <img class="logo__img" src="./img/logo.png" alt="logo of page" width="35" height="35">
+          </a>
+          
+        </div>
+        
+        <form class="header__form  header-form" action="#">
+          <input class="header-form__input" type="text"  name="search" id="seach-id" placeholder="Search">
+          <img class="header-form__img" src="./img/search-icon.png" alt="search" width="16" height="16">
+        </form>
+        
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#">Home</a>
+            </li>
+            
+            <li class="nav__item">
+              <a class="nav__link" href="#">Profile</a>
+            </li>
+            
+            <li class="nav__item">
+              <a class="nav__link" href="#">Connections</a>
+            </li>
+            
+            <li class="nav__item">
+              <a class="nav__link" href="#">Interest</a>
+            </li>
+            
+            <li class="nav__item">
+              <a class="nav__link nav__red-item" href="#">Try Premium</a>
+            </li>
+          </ul>
+        </nav>
+        
+        <ul class="header__icon header-icon">
+          
+          <li class="header-icon__item">
+            <a class="header-icon__link" href="#">
+              <img class="header-icon__img" src="./img/message1.png" alt="message" width="30" height="30" >
+            </a>
+            
+          </li>
+          
+          <li class="header-icon__item">
+            <a class="header-icon__link" href="#">
+              <img class="header-icon__img" src="./img/gold-bell.svg" alt="gold bell" width="30" height="30" >
+            </a>
+          </li>
+          
+          
+          <li class="header-icon__item">
+            <a class="header-icon__link" href="#">
+              <img class="header-icon__img" src="./img/person.png" alt="person" width="30" height="30" >
+            </a>
+          </li>
+          
+          
+        </ul>
+        
+        <div class="avatar">
+          <img class="avatar__img" src="./img/avatar.jpg" alt="avatar" width="50" height="50">
+        </div>
+    </div>
+        
+      </div>
+      
+      <div class="header__footer header-footer">
+       <div class="big-container">
+        <nav class="header-footer__nav">
+          <ul class="header-footer__list">
+            
+            <li class="header-footer__item active">
+              <a class="header-footer__link" href="#">Posts</a>
+            </li>
+            
+            <li class="header-footer__item">
+              <a class="header-footer__link" href="#">Bakground</a>
+            </li>
+            
+            <li class="header-footer__item">
+              <a class="header-footer__link" href="#">Recommendations</a>
+            </li>
+            
+            <li class="header-footer__item">
+              <a class="header-footer__link" href="#">Following</a>
+            </li>
+          </ul>
+        </nav>
+       </div>
+      </div>
+  </header>
+  
+  <!-- main -->
+  
+  <main>
+    <div class="big-container">
+      <div class="main-wrapper">
+        
+        <section class="left">
+          <img class="left__img" src="./img/bill-gates-avatar.png" alt="bill gates avatar" width="120" height="120">
+          
+          <h3 class="left__title">Bill Gates</h3>
+          
+          <p class="left__text">Microsoft Founder</p>
+          
+          <p class="left__text2">Greater Seattle Area</p>
+          
+          <button class="left__follow-btn" type="button">Follow</button>
+          
+          <a class="left__connect connect" href="#">Connect <img class="connect__img" src="./img/down.png" alt="drop down" width="20" height="10"> </a>
+          
+          <div class="left__status left-status">
+            
+            <div class="connecting">
+              <span class="_connecting__number">200</span>
+              <p class="connecting__text">connecting</p>
+            </div>
+            
+            <div class="follower">
+              <span class="follower__number">1.9M</span>
+              <p class="followers__text">followers</p>
+            </div>
+            
+          </div>
+          
+          <div class="left__link left-link">
+
+            <a class="left-link__1" href="#">
+              <img class="left-link__img" src="./img/linkedin-logo.png" alt="linkedin logo" width="25" height="25">
+              linkedin.com/in.billgates
+            </a>
+            
+            <a class="left-link__2" href="#">
+              
+              <img class="left-link__img" src="./img/internet.png" alt="internet logo" width="25" height="25">
+              linkedin.com/in.billgates
+              
+            </a>
+          </div>
+          
+          <div class="left__pdf left-pdf">
+            <a class="left-pdf__link" href="#">
+              <img class="left-pdf__img" src="./img/export.png" alt="export file" width="20" height="20">
+              Export page as PDF
+            </a>
+          </div>
+          
+        </section>
+        
+        <!-- left - end -->
+        <!-- center - start -->
+        
+        <section class="main__center center">
+
+          <div class="center__post post">
+            <div class="container">
+              <header class="post__header post-header">
+                
+                <h2 class="post-header__title">posts</h2>
+                
+                <div class="post-header__btn">
+                  
+                  <button class="post-header__btn-1 btn-1" type="button" >
+                    <img class="btn-1__img" src="./img/arrow-left-blue.png" alt="next" width="19" height="18">
+                  </button>
+                  
+                  <button class="post-header__btn-2 btn-2" type="button" >
+                    <img class="btn-2__img" src="./img/arrow-right-blue.png" alt="back" width="19" height="18">
+                  </button>
+                  
+                </div>
+                
+              </header>
+              
+              <main class="post__main post-main">
+                <div class="post-main__block-1">
+                  
+                  <img src="./img/article-1.jpg" alt="old window" width="230" 
+                  height="220">
+                  
+                  <p class="block__text">Lorem ipsum dolor sit amet  adipisicing.</p>
+                  
+                  <span class="block__data">February 19, 2016</span>
+                  
+                </div>
+                
+                <div class="post-main__block-2">
+                  
+                  <img src="./img/article-2.jpg" alt="books, copybooks and towel on the floor" width="230" height="220">
+                  
+                  <p class="block__text">Lorem ipsum dolor sit amet adipisicing.</p>
+                  
+                  <span class="block__data">February 19, 2016</span>
+                  
+                </div>
+                
+                <div class="post-main__block-3">
+                  
+                  <img src="./img/article-3.jpg" alt="coffee and flowers" width="230" height="220">
+                  
+                  <p class="block__text">Lorem ipsum dolor sit amet adipisicing.</p>
+                  
+                  <span class="block__data">February 19, 2016</span>
+                  
+                </div>
+                
+              </main>
+            </div>
+          </div>
+          
+          <div class="center__background background">
+            <header class="background__header">
+              <div class="container">
+                <h2 class="background__title">background</h2>
+              </div>
+            </header>
+            
+            <div class="background__main background">
+              <div class="container">
+                
+                <div class="background__summary summary">
+                  
+                  <div class="summary_icon">
+                    <img src="./img/text-icon.png" alt="text icon" width="30" height="30">
+                  </div>
+                  
+                  <div class="summary__content">
+                    <h3 class="summary__title">Summary</h3>
+                    
+                    <p class="summary__text">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam temporibus deleniti explicabo vitae officia corporis deserunt recusandae dolores ducimus ullam voluptatem mollitia eligendi quia fugit ex, itaque expedita enim veniam numquam iste eum. Exercitationem quo, eius quod tempora vitae nesciunt ad repudiandae ab provident totam, laboriosam accusamus quos placeat saepe!
+                    </p>
+                  </div>
+                </div>
+                
+                <div class="background__experience experience">
+                  <h3 class="experience__title">Experience</h3>
+                  
+                  <div class="experience__microsoft microsoft">
+                    <ul class="microsoft__list">
+                      <li class="microsoft__item-1">2000 - present</li>
+                      <li class="microsoft__item-2">Co-founder, Chairman</li>
+                      <li class="microsoft__item-3"><a class="microsoft__link" href="#">Microsoft</a></li>
+                    </ul>
+                    
+                    <img class="microsoft__logo" src="./img/logo-microsoft.png" alt="logo of microsoft" width="200" height="70">
+                  </div>
+                  
+                  <hr class="experience__column-line">
+                  
+                  <div class="experience__youtube youtube">
+                    <ul class="youtube__list">
+                      <li class="youtube__item-1">1992 - 1999</li>
+                      <li class="youtube__item-2">Senior Developer</li>
+                      <li class="youtube__item-3"><a class="youtube__link" href="#">Youtube</a></li>
+                    </ul>
+                    
+                    <img class="youtube__logo" src="./img/logo-youtube.png" alt="logo of youtube" width="200" height="40">
+                  </div>
+                </div>
+                
+                <div class="background__education education">
+                  <h3 class="education__title">Education</h3>
+                  
+                  <div class="education__harvard harvard">
+                    
+                    <ul class="harvard__list">
+                      <li class="harvard__item-1">1973 - 1975</li>
+                      <li class="harvard__item-2">Harvard University</li>
+                      <li class="harvard__item-3"><a class="harvard__link" href="#">BS Computer Science</a></li>
+                    </ul>
+                    
+                  </div>
+                  
+                  <hr class="education__column-line">
+                  
+                  <div class="education__school school">
+                    <ul class="school__list">
+                      <li class="school__item-1">1960 - 1973</li>
+                      <li class="school__item-2">Lakeside School, Seattle</li>
+                    </ul>
+                    
+                  </div>
+                </div>
+                
+                <div class="background__skills skills">
+                  <h3 class="skills__title">Skills</h3>
+                  
+                  <main class="skills__main skills-main">
+                    
+                    <div class="skills-main__left skill-left">
+                      
+                      <div class="skill-left__marketing">
+                        
+                        <span class="skills-main__number">74</span>
+                        <p class="skills-main__text">Social Media Marketing</p>
+                        
+                      </div>
+                      
+                      <div class="skills-left__web">
+                        
+                        <span class="skills-main__number">67</span>
+                        <p class="skills-main__text">Web development</p>
+                        
+                      </div>
+                      
+                    </div>
+                    
+                    <div class="skills-main__right skills-right">
+                      
+                      <div class="skills-right-1">
+                        <img class="skills-right__img" src="./img/avatar.jpg" alt="avatar" width="60" height="60">
+                        
+                        <img class="skills-right__img" src="./img/avatar-2.jpg" alt="avatar" width="60" height="60">
+                        
+                        <img class="skills-right__img" src="./img/avatar-3.jpg" alt="avatar" width="60" height="60">
+                        
+                        <span class="skills-right__number">71+</span>
+                      </div>
+                      
+                      <div class="skills-right-2">
+                        <img class="skills-right__img" src="./img/avatar-3.jpg" alt="avatar" width="60" height="60">
+                        
+                        <img class="skills-right__img" src="./img/avatar.jpg" alt="avatar" width="60" height="60">
+                        
+                        <img class="skills-right__img" src="./img/avatar-2.jpg" alt="avatar" width="60" height="60">
+                        
+                        <span class="skills-right__number">71+</span>
+                      </div>
+                      
+                    </div>
+                    
+                  </main>
+                  
+                </div>
+                
+                <div class="background__interests interests">
+                  <h3 class="interests__title">Interests</h3>
+                  
+                  <div class="interests__btns">
+                    <button class="interests__btn" type="text">Wireless Industry</button>
+                    <button class="interests__btn" type="text">Photography</button>
+                    <button class="interests__btn" type="text">Web design</button>
+                    <button class="interests__btn" type="text">Technology</button>
+                  </div>
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          
+          <div class="center__recomendations recommendations">
+            <header class="recomendations__header recomendations-header">
+              <div class="container">
+                <div class="recomendations-header__wrapper">
+                  
+                  <h2 class="recomendations-header__title">Recomendations</h2>
+                  
+                  <div class="recomendations-header__btns">
+                    
+                    <button class="recomendations-header__btn recomendations-btn">
+                      <img class="recomendations-btn__img" src="./img/arrow-left-blue.png" alt="back" width="19" height="18">
+                    </button>
+                    
+                    <button class="recomendations-header__btn recomendations-btn">
+                      <img class="recomendations-btn__img" src="./img/arrow-right-blue.png" alt="next" width="19" height="18">
+                    </button>
+                    
+                  </div>
+                  
+                </div>
+              </div>
+            </header>
+            
+            <div class="recomendations__main recomendations-main">
+              
+              <div class="container">
+                
+                <div class="recomendations-main__cards recomendations-cards">
+                  
+                  <div class="recomendations-cards__card recomendations-card">
+                    <p class="recomendations-card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia repellendus ipsam distinctio dicta. Reiciendis dolores ipsam tenetur nemo </p>
+
+                   <div class="recomendation__stringle-wrapper">
+                    <span class="recomendation__stringle"></span>
+                   </div>
+                    
+                    <div class="recomendations-card__avatar recomendations-avatar">
+                      <img class="recomendations-avatar__img" src="./img/avatar.jpg" alt="avatar" width="50" height="50">
+                      
+                      <div class="recomendations-avatar__info">
+                        
+                        <h4 class="recomendations-avatar__name">Steve Jobs</h4>
+                        <p class="recomendations-avatar__text">Apple</p>
+                        
+                      </div>
+                      
+                    </div>
+                  </div>
+
+                    
+                  <div class="recomendations-cards__card recomendations-card">
+                    <p class="recomendations-card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia repellendus ipsam distinctio dicta. Reiciendis dolores ipsam tenetur nemo.</p>
+
+                    <div class="recomendation__stringle-wrapper">
+                      <span class="recomendation__stringle"></span>
+                     </div>
+                    
+                    <div class="recomendations-card__avatar recomendations-avatar">
+                      <img class="recomendations-avatar__img" src="./img/avatar.jpg" alt="avatar" width="50" height="50">
+                      
+                      <div class="recomendations-avatar__info">
+                        
+                        <h4 class="recomendations-avatar__name">Steve Jobs</h4>
+                        <p class="recomendations-avatar__text">Apple</p>
+                        
+                      </div>
+                      
+                    </div>
+                  </div>
+
+                    
+                  <div class="recomendations-cards__card recomendations-card">
+                    <p class="recomendations-card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia repellendus ipsam distinctio dicta. Reiciendis dolores ipsam tenetur nemo</p>
+
+                    <div class="recomendation__stringle-wrapper">
+                      <span class="recomendation__stringle"></span>
+                     </div>
+                    
+                    <div class="recomendations-card__avatar recomendations-avatar">
+                      <img class="recomendations-avatar__img" src="./img/avatar.jpg" alt="avatar" width="50" height="50">
+                      
+                      <div class="recomendations-avatar__info">
+                        
+                        <h4 class="recomendations-avatar__name">Steve Jobs</h4>
+                        <p class="recomendations-avatar__text">Apple</p>
+                        
+                      </div>
+                      
+                    </div>
+                  </div>
+                  
+                </div>
+                
+              </div>
+              
+            </div>
+            
+          </div>
+
+          <div class="center__following following">
+
+            <header class="following__header">
+
+              <div class="container">
+                <h2 class="following__header--title">following</h2>
+              </div>
+
+            </header>
+
+            <div class="following__company-logos following-logos">
+              <div class="container">
+
+                <div class="following-logos__wrapper">
+
+                  <div class="following-logos__logo">
+                    <div class="following-logos__logo--img-wrapper">
+                      <img class="following-logos__img" src="./img/logo-amazon.jpg" alt="logo of amazon" width="120" height="60">
+                    </div>
+
+                    <h3 class="following-logos__logo--title">Amazon</h3>
+                    <p class="following-logos__logo--text">Follow</p>
+                  </div>
+    
+                  <div class="following-logos__logo">
+                    <div class="following-logos__logo--img-wrapper">
+                      <img class="following-logos__img" src="./img/logo-amazon.jpg" alt="logo of amazon" width="120" height="60">
+                    </div>
+
+                    <h3 class="following-logos__logo--title">Amazon</h3>
+                    <p class="following-logos__logo--text">Follow</p>
+                  </div>
+    
+                  <div class="following-logos__logo">
+                    <div class="following-logos__logo--img-wrapper">
+                      <img class="following-logos__img" src="./img/logo-amazon.jpg" alt="logo of amazon" width="120" height="60">
+                    </div>
+
+                    <h3 class="following-logos__logo--title">Amazon</h3>
+                    <p class="following-logos__logo--text">Follow</p>
+                  </div>
+    
+                  <div class="following-logos__logo">
+                    <div class="following-logos__logo--img-wrapper">
+                      <img class="following-logos__img" src="./img/logo-amazon.jpg" alt="logo of amazon" width="120" height="60">
+                    </div>
+
+                    <h3 class="following-logos__logo--title">Amazon</h3>
+                    <p class="following-logos__logo--text">Follow</p>
+                  </div>
+
+                </div>
+
+                <a class="following-logos--link" href="#">See all (20)</a>
+
+              </div>
+            </div>
+
+          </div>
+
+        </section>
+
+
+        
+        <!-- right - start -->
+
+
+
+        
+        <section class="main__right right">
+          
+          <h3 class="right__title">
+            people also viewed
+          </h3>
+          
+          <div class="right__avatar right-avatar">
+            <img class="right-avatar__img" src="./img/avatar.jpg" alt="avatar" width="60" height="60">
+            <div class="right-avatar__info">
+              <h4 class="right-avatar__name">Sergey Brin</h4>
+              <p class="right-avatar__text">Google</p>
+            </div>
+          </div>
+          
+          <div class="right__avatar right-avatar">
+            <img class="right-avatar__img" src="./img/avatar-2.jpg" alt="avatar 2 width="60" height="60"">
+            <div class="right-avatar__info">
+              <h4 class="right-avatar__name">Jeffrey Bezos</h4>
+              <p class="right-avatar__text">Amazon</p>
+            </div>
+          </div>  
+          
+          <div class="right__avatar right-avatar">
+            <img class="right-avatar__img" src="./img/avatar-3.jpg" alt="avatar 3" width="60" height="60">
+            <div class="right-avatar__info">
+              <h4 class="right-avatar__name">Steve Jobs</h4>
+              <p class="right-avatar__text">Apple</p>
+            </div>
+          </div>
+          
+          <h3 class="right__title2"> more influencers</h3>
+          
+          <div class="right__avatar2">
+            
+            <span class="right__avatar2__img-wrapper">
+              <img class="right__avatar2__img" src="./img/avatar-3.jpg" alt="avatar" width="150" height="150">
+            </span>
+            
+            <h4 class="right-avatar2__name">Steve Jobs</h4>
+            
+            <p class="right-avatar2__text">Apple</p>
+            
+          </div>
+          
+        </section>
+        
+        
+        
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p class="footer__text">
+        LinkedIn Corporation &copy;2014
+      </p>
+    </div>
+  </footer>
+  
+  <div class="bottom"></div>
+  
+</body>
+</html>
